@@ -72,7 +72,7 @@
       functor(canvasElement, eventTypePrefix + 'move', this._onMouseMove, addEventOptions);
       functor(canvasElement, eventTypePrefix + 'out', this._onMouseOut);
       functor(canvasElement, eventTypePrefix + 'enter', this._onMouseEnter);
-      functor(canvasElement, 'wheel', this._onMouseWheel);
+      // functor(canvasElement, 'wheel', this._onMouseWheel);
       functor(canvasElement, 'contextmenu', this._onContextMenu);
       functor(canvasElement, 'dblclick', this._onDoubleClick);
       functor(canvasElement, 'dragover', this._onDragOver);
